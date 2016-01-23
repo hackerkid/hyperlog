@@ -26,7 +26,7 @@ var INVALID_LOG = new Error('Invalid log sequence')
 
 INVALID_LOG.notFound = true
 INVALID_LOG.status = 404
-
+//test comment
 var noop = function () {}
 
 var Hyperlog = function (db, opts) {
